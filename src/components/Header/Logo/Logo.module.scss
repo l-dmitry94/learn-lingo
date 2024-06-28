@@ -1,0 +1,11 @@
+.logo {
+    @apply flex items-center gap-2;
+}
+
+.logoIcon {
+    @apply w-7 h-7;
+}
+
+.logoText {
+    @apply font-medium text-xl tracking-tight leading-tight;
+}

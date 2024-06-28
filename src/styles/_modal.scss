@@ -1,0 +1,19 @@
+@layer components {
+    .overlay.ReactModal__Overlay--after-open {
+        @apply opacity-100;
+    }
+    .overlay.ReactModal__Overlay--before-close {
+        @apply opacity-0;
+    }
+
+    .content.ReactModal__Content--after-open {
+        @apply translate-y-0;
+    }
+    .content.ReactModal__Content--before-close {
+        @apply translate-y-12;
+    }
+}
+
+.ReactModal__Body--open {
+    @apply overflow-hidden;
+}

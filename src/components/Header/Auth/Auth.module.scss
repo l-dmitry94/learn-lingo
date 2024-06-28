@@ -1,0 +1,20 @@
+body {
+    .button {
+        @apply bg-black py-[14px] px-10 rounded-xl;
+
+        &:hover {
+            @apply bg-primary text-black;
+        }
+    }
+    .buttonLogin {
+        @apply font-bold leading-tight text-black;
+    }
+
+    .loginIcon {
+        @apply fill-transparent stroke-primary w-5 h-5
+    }
+}
+
+.list {
+    @apply flex items-center gap-4
+}

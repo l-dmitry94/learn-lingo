@@ -1,0 +1,11 @@
+.header {
+    @apply py-5
+}
+
+.container {
+    @apply max-w-[1184px] mx-auto px-6
+}
+
+.wrapper {
+    @apply flex items-center justify-between
+}

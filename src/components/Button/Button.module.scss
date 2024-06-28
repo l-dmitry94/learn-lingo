@@ -1,0 +1,39 @@
+.button {
+    @apply h-[60px];
+}
+
+.loginIcon {
+    @apply fill-transparent stroke-primary w-5 h-5;
+}
+
+.button {
+    @apply h-[60px] px-10 font-bold rounded-[12px] bg-primary transition-colors duration-300 ease-linear;
+
+    &:is(:hover, :focus) {
+        @apply bg-primary-light;
+    }
+}
+
+.buttonLogin {
+    @apply flex items-center gap-2 font-bold leading-tight px-0 bg-transparent;
+
+    &:is(:hover, :focus) {
+        @apply bg-transparent;
+    }
+}
+
+.buttonRegister {
+    @apply bg-black text-white;
+
+    &:is(:hover, :focus) {
+        @apply text-black bg-primary;
+    }
+}
+
+.buttonModal {
+    @apply w-full;
+}
+
+.buttonLesson {
+    @apply px-12
+}

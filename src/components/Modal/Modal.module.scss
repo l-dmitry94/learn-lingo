@@ -1,0 +1,19 @@
+.info {
+    @apply mb-10;
+}
+
+.title {
+    @apply font-medium text-[40px] leading-tight tracking-tight mb-5;
+}
+
+.description {
+    @apply leading-snug text-black/80;
+}
+
+.closeButton {
+    @apply absolute top-5 right-5;
+}
+
+.closeIcon {
+    @apply stroke-black w-8 h-8;
+}

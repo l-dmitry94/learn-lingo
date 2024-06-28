@@ -1,0 +1,19 @@
+.wrapper {
+    @apply relative;
+}
+
+.input {
+    @apply focus:outline-none h-[52px] w-full rounded-xl border-[1px] border-black/10 pl-[18px] pr-14 leading-tight placeholder-black outline-transparent focus:border-[1px] focus:border-black/10;
+}
+
+.error {
+    @apply mt-1 text-red-500 font-medium leading-tight
+}
+
+.passwordButton {
+    @apply absolute right-[18px] top-2/4 -translate-y-2/4
+}
+
+.passwordIcon {
+    @apply h-5 w-5 fill-none stroke-black
+}
